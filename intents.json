@@ -1,0 +1,163 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "OPEN",
+         "patterns": ["When does the spa open?", "What time does the spa open?", "When does the spa open?", "What time does the spa start?"],
+         "responses": ["8:30"],
+         "context": [""]
+        },
+        {"tag": "CLOSE",
+         "patterns": ["When does the spa close?", "What time does the spa close?", "When does the spa close?", "What time does the spa close?" ],
+         "responses": ["19:30"],
+         "context": [""]
+        },
+        {"tag": "WORK_TIME",
+         "patterns": ["What is the opening and closing time of the spa?", "What time does the spa work?", "What time does the spa work?"],
+         "responses": ["8:30 - 19:30, Monday to Sunday (including public holidays)"],
+         "context": [""]
+        },
+        {"tag": "SUNDAY",
+         "patterns": ["Is the spa open on Sunday?", "Is the spa open on Sunday?", "Can I go to the spa on Sunday?"],
+         "responses": ["Yes, our Spa is open 8:30 - 19:30, Monday to Sunday (including public holidays)"],
+         "context": [""]
+        },
+        {"tag": "HOLIDAY",
+         "patterns": ["Is the spa open on holiday?", "Is the spa open on holiday?", "Can I go to the spa on holiday?"],
+         "responses": ["Yes, our Spa is open 8:30 - 19:30, Monday to Sunday (including public holidays)"],
+         "context": [""]
+        },
+        {"tag": "ADDRESS",
+         "patterns": ["What is the address of the spa?", "What is the location of the spa?", "Where is the spa located?", "Address?", "Location?"],
+         "responses": ["254 Nguyen Van Linh"],
+         "context": []
+        },
+        {"tag": "CAUSE_ACNE",
+         "patterns": ["What is the cause of acne?", "Why do I get acne?", "Causes of acne?", "What causes acne?"],
+         "responses": ["Changes in hormone-disrupting hormones, Excessive pressure and stress, Unhealthy diet,Genetic factors,Invading bacteri,Do not pop acne right way"],
+         "context": [""]
+        },
+        {"tag": "INCREASE_ACNE_FACTORS",
+         "patterns": ["What are the factors that increase the risk of acne?", "What are the factors that increase the risk of acne?", "What are the factors that increase the risk of acne?",
+                "Factors that increase the risk of acne?", "What increases the risk of acne?", "Causes that increase the risk of acne", "What causes increases the risk of whiteheads?" ],
+         "responses": [" - The drastic change of hormones, Taking drugs containing corticosteroids, Androg or lithium, Letting the skin have too much contact with potentially bacteria-rich objects."],
+         "context": [""]
+        },
+        {"tag": "INCREASE_ACNE_FACTORS",
+         "patterns": ["What are the factors that increase the risk of acne?", "What are the factors that increase the risk of acne?", "What are the factors that increase the risk of acne?", "Factors that increase the risk of acne?", "What increases the risk of acne?", "Causes that increase the risk of acne", "What causes increases the risk of whiteheads?"],
+         "responses": ["The drastic change of hormones, Taking drugs containing corticosteroids, Androg or lithium,Letting the skin have too much contact with potentially bacteria-rich objects."],
+         "context": [""]
+        },
+        {"tag": "SKIN_PROBLEMS",
+         "patterns": ["Common skin problems?", "What are common skin problems?", "What problems will the skin have?", "What cases can the skin have?", "The cases cases that the skin may have?"],
+         "responses": ["Acne fulminans, acne nodules, blackhead, dermatitis perioral, eksim, flek hitam, folikulities, fungal acne, herpes, Karisnoma, kutil filiform, melanoma, milia, normal, panu, papula, psoriasis, Pustula, rosacea, tinea facials, whitehead"],
+         "context": [""]
+        },
+        {
+        "tag": "ACNE_TYPES",
+        "patterns": ["What are the common types of acne?", "Common types of acne", "Types of acne", "What types of acne are there?", "What types of acne are common?", "What are the most common types of acne?"],
+        "responses": ["Blackhead, whitehead, nodule, pustula"],
+        "context": [""]
+        },
+        {
+        "tag": "BLACKHEAD",
+        "patterns": ["Signs of a blackhead", "What does a blackhead look like?", "What does a blackhead look like?", "Acne What does a blackhead look like?"],
+        "responses": ["Blackheads have the most easily identifiable characteristic that they have a black head and are located in an open pore on the face of the skin. This type of acne is formed due to excess oil, sebum, bacteria, dirt and dead cells accumulating too much in the pores, after a period of time, the acne is oxidized due to exposure to air and changes color. to black"],
+        "context": []
+        },
+        {
+        "tag": "WHITEHEAD",
+        "patterns": ["Signs of a whitehead", "What does a whitehead look like?", "What does a whitehead look like?", "Acne What does a whitehead look like?"],
+        "responses": ["The most recognizable sign of whiteheads is that they are wrapped in closed pores, white heads and raised on the skin surface causing rough skin. This type of acne is caused by excess oil, sebum, dead cells and bacteria that accumulate in closed pores, so it forms a mixture below the surface of the skin"],
+        "context": []
+        },
+        {"tag": "NODULE",
+                "patterns": ["Signs of a nodule", "What does a nodule look like?", "What does a nodule look like?", "Acne What does a nodule look like?"],
+                "responses": ["This type of acne is also known as nodular acne, the acne is quite small, red or pink. Red acne is easy to get inflamed, if touched, or squeezed, it can make the pimple bigger and spread to other areas of the skin. The important point is that when acne is severely inflamed, it is easy to leave scars after acne."],
+                "context": [""]
+        },
+        {"tag": "PUSTULA",
+                "patterns": ["Signs of a pustula", "What does a pustula look like?", "What does a pustula look like?",  "Acne What does apustula look like?"],
+                "responses": ["Pustules also belong to acne, but they are different from other types of acne in that they are whiteheads and have a red ring around the acne like a bump. These acne spots often contain a lot of white or opaque yellow pus. Pustules are also very easy to leave scars, so when you encounter this type of acne, you absolutely must not touch, squeeze, puncture or squeeze acne."],
+                "context": [""]
+        },
+        {"tag": "SERVICE_PACKAGE",
+                "patterns": ["Services", "Spa services?", "What does the spa treat?", "What services can the spa provide?"],
+                "responses": [" Acne treatment, Treatment of melasma on the face, Treat pitted scars, Skin Care, Acne treatment"],
+                "context": [""]
+        },
+        {"tag": "ACNE_TREATMENT",
+                "patterns": ["How to treat acne effectively and safely?", "How to treat acne safely", "How to treat acne safely", "How to treat acne effectively", "How to treat acne safely" , "Safe and effective acne treatments"],
+                "responses": ["Treat acne with suitable natural ingredients. (Please type natural treatment for details), Treat acne according to the doctor's prescription (Please type doctor's prescription for details), The most effective acne treatment at the spa (Please type acne treatment at the spa for details)"],
+                "context": [""]
+        },
+        {"tag": "NATURAL_TREATMENT",
+                "patterns": ["natural treatment"],
+                "responses": ["Advantages: Ingredients are easy to find, safe and benign for the skin, Cost-effective and easy to implement. Disadvantages: Acne treatment with natural ingredients is only effective for newly formed acne and mild acne. The important thing is that it takes a long time to persevere in doing it every week, to see the effect of improving the acne condition of the skin. Because of only external influences, it is difficult for the nutrients of natural ingredients to penetrate deep inside and promote the expected effect"],
+                "context": [""]
+        },
+        {"tag": "TREAT_AT_SPA",
+                "patterns": ["acne treatment at the spa"],
+                "responses": ["In the process of treating acne with drugs or natural ingredients, it will not destroy inflammation, and collect acne as quickly as when using technology. Therefore, treatment with technology at the acne spa is the most optimal way to save time and money, but also to be safe and effective. Currently, we have a lot of hot acne treatment technologies and are positively reviewed by many customers."],
+                "context": [""]
+        },
+        {"tag": "DOCTOR'S_PRESCRIPTION",
+                "patterns": ["doctor's prescription"],
+                "responses": ["Advantages: Save time, Doesn't cost much. Defect: Can not completely treat severe types of inflammatory acne, cystic acne, cystic acne, Treatment often causes hot skin, dry skin, and dry lips, Must use the drug under the direction of the doctor, For mild types of acne can be treated, but it takes a long time to maintain the medication."],
+                "context": [""]
+        },
+        {"tag": "TREATMENT_PROCESS",
+                "patterns": ["How is the high-tech acne treatment process at the spa?", "The high-tech acne treatment process?", "high-tech Acne treatment steps", "Steps to perform high-tech acne treatment at the spa?"],
+                "responses": ["Step 1: Analyze the biological skin, examine it and give the appropriate treatment plan \nStep 2: Remove makeup with Laaskin brand luxury makeup remover\n Step 3: Exfoliate and remove old stratum corneum \n Step 4: Wash your face with Laaskin cleanser \n Step 5: Hot steam deep clean pores \n Step 6: Absorb acne bran and sebum \n Step 7: Apply an Omega mask \n Step 8: Get medical grade acne and treat the nose area separately \n Step 9: Suction toxic and dark blood with specialized tools \n Step 10: Disinfect with medicine \n Step 11: Advanced disinfection with orange or purple ion electrophoresis \n Step 12: Apply soothing mint essence \n Step 13: Apply a face mask to reduce swelling \n Step 14: Cold steam helps the essence to penetrate deeply \n Step 15: Apply a mask to restore skin quickly \n Step 16: Apply biological light mask, head massage \n Step 17: Shoot Elight \n Step 18: Spray Oxyjet for skin rejuvenation \n Step 19: Apply Laaskin Korean acne cream \n Step 20: Relax your head, arms, shoulders, and body."],
+                "context": [""]
+        },
+        {"tag": "AFTER_TREATMENT",
+                "patterns": ["How to take care of the skin after acne treatment?", "How to take care of the skin after acne treatment?", "What to do after acne treatment?", "What not to do after acne treatment ?"],
+                "responses": ["- Hygiene, gentle cleansing of the skin \n- Use acne cream and serum as directed by a specialist or doctor \n- Always protect the skin from the effects of the environment \n - Don't touch your face with your hands \n - Stop exercising after squeezing pimples \n - Limit makeup \n - Limit exfoliation"],
+                "context": [""]
+        },
+        {"tag": "ACNE_TREATMENT_PACKAGE",
+                "patterns": ["What kind of services for acne treatment?", "Price for acne treatment?", "How much does acne treatment cost?","What acne treatment packages are there?"],
+                "responses": ["1 ACNE SPECTRA KOREA $90 \n 2 BATH SILK Stem Cell Acne $25 \n 3 BACK BATH SILK Stem Cell Acne $38 \n 4 CARBOXY ACNE $78 \n 5 SILICONE ACNE $41 \n 6 BACKGROUND $23 \n 7 RECOVERY SERIES $60 \n8 BREAKING SEAFOOD SERVICES ON THE BACK $90 \n 9 NON-Metallic VACXIN ACNE $105 \n 10 NON-MEDICINE VACXIN ACNE $150"],
+                "context": [""]
+        },
+        {"tag": "MELASMA_TREATMENT",
+                "patterns": ["What melasma treatment packages are there?", "Melasma treatment", "What is the cost of melasma treatment?", "How much does melasma treatment cost?"],
+                "responses": ["1 DR.Seoul special treatment for cod ovary pigmentation 4.0 $250 \n 2 Cod Fish Eggs $50 \n 3 Doctor Laser Pico CS (deep melasma) $150 \n 4 Doctor Laser Pico NDM (melasma) $125 \n 5 E-Light for Melasma Treatment VND $60"],
+                "context": [""]
+        },
+        {"tag": "PITTED_SCARS",
+                "patterns": ["What pitted scars treatment packages are there?", "pitted scars treatment", "What is the cost of pitted scars treatment?", "How much does pitted scars treatment cost?"],
+                "responses": ["1 PRP 4.0 $225 \n 2 Scar Treatment Doctor Laser Scar CO2 $450 \n3 DR. Seoul treatment for pitted scars $250"],
+                "context": [""]
+        },
+        {"tag": "PITTED_SCARS_PROCESS",
+                "patterns": ["Pitted scar treatment process", "Steps to treat pitted scars", "How are pitted scars treated according to the procedure?"],
+                "responses": ["Step 1: Remove makeup \n Step 2: Exfoliate \n Step 3: Wash your face (use a gentle cleanser) \n Step 4: Sauna \n Step 5: Absorb the grease. \n Step 6: Disinfection \n Step 7: Get old acne \n Step 8: Disinfect the electric cam \n Step 9: Incubate for 20 minutes \n Step 10: Impact creates surface wounds \n Step 11: Use filling essence to treat pitted scars \n Step 12: Non-metallic facial skin \n Step 13: Disinfect with salt water \n Step 14: Apply essence and incubate your face \n Step 15: Use PRP plasma and give it to guests to take home."],
+                "context": [""]
+        },
+        {"tag": "SKIN_CARE",
+                "patterns": ["What skin care packages are there?", "skin care", "What is the cost of skin care?", "How much does skin care cost?"],
+                "responses": ["1. Luxury Skin Care $175 \n 2. Blood Nest Face Incubation $125 \n 3. Premium skin care $100 \n 4. Toxic Lead Removal $58 \n 5. Incubation for skin regeneration $75 \n 6. Running Vitamin C $88 \n  7. Back Vitamin C Run $125"],
+                "context": [""]
+        }
+
+   ]
+}
